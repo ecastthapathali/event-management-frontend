@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import path from "path";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -54,7 +53,7 @@ const Navbar = () => {
           <Link href="#" className="hover:text-gray-300">
             Class
           </Link>
-          <Link href="#" className="hover:text-gray-300">
+          <Link href="contact" className="hover:text-gray-300">
             Contact
           </Link>
           <button
